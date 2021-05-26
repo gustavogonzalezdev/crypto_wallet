@@ -20,7 +20,9 @@ class _AuthenticationState extends State<Authentication> {
       body: Container(
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
-        decoration: BoxDecoration(color: Colors.blueAccent),
+        decoration: BoxDecoration(
+          color: Colors.blueAccent,
+        ),
         child: Column(
           children: [
             TextFormField(),
